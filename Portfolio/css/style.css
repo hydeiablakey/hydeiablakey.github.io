@@ -1,0 +1,127 @@
+:root {
+    --backgroundColor: #FDF6F0;
+    --textColor: black; 
+    --padding: 15px;
+    --font: 'Lato';
+    --shadow: 0px 0px 12px 5px rgba(0,0,0,0.29);
+
+}
+
+html {
+    font-size: calc(1em +1vw);
+
+}
+
+button, input {
+    font-size: inherit;
+}
+
+body {
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+    font-family: var(--font);
+      margin: 0px;
+}
+
+img {
+    box-shadow: var(--shadow);
+}
+
+.banner {
+    background-color: #F8E2CF;
+    backface-visibility:visible;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #F8E2CF;
+    backface-visibility:visible;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top:10px;
+}
+
+
+.title {
+    margin-right: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+  }
+
+li a {
+    display: inline;
+    text-align: center;
+    margin: 5px;
+    text-decoration:none;
+    color: black;
+  }
+
+.aboutMe {
+    text-align: center;
+}
+
+.socialMedia {
+    display: flex; 
+    justify-content: center;
+    list-style-type: none;
+    text-decoration:none;
+}
+
+ a:hover {
+    color: #F5C6AA;
+}
+
+.skillsList, .goalsList, .jobTasks{
+    display: block;
+}
+
+a { 
+    margin: 10px;
+    text-decoration:none;
+}
+
+.jobs, .education {
+        text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color:#F5C6AA;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+  }
+  .projects {
+      margin-bottom:20px;
+ 
+  }
+  .contactForm{
+    border-radius: 5px;
+    padding: 20px;
+    width: 500px; 
+    background-color:#FCD8D4;
+    margin:0 auto;
+    border: 1px solid black;
+    
+  }
+    
