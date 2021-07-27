@@ -23,8 +23,12 @@ body {
       margin: 0px;
 }
 
-img {
+.profilePicture img {
     box-shadow: var(--shadow);
+}
+
+.projects img {
+    border: 1px solid;
 }
 
 .banner {
@@ -119,7 +123,7 @@ input {
     border-radius: 5px;
     padding: 20px;
     width: 500px; 
-    background-color:#FCD8D4;
+    background-color:white;
     margin:0 auto;
     border: 1px solid black;
     
